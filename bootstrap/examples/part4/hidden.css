@@ -1,0 +1,35 @@
+.container {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+[class*="col-"] {
+  padding: 0px;
+  background-color: #eee;
+  border: 1px solid #000;
+}
+
+hr {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.day {
+  background-color: #666;
+  color: #fff;
+  text-align: center;
+}
+.date {
+  text-align: right;
+}
+
+.date, .topic, .description {
+  margin: 10px;
+}
+
+td.is-visible {
+  color: #468847;
+  background-color: #dff0d8 !important;
+}
+td.is-hidden {
+  color: #ccc;
+  background-color: #f9f9f9 !important;
+}

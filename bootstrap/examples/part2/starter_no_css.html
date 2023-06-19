@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Bootstrap without CSS</title>
+
+
+  </head>
+
+  <body>
+
+    <div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Website Name</a>
+        </div>
+        
+        
+        <div class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+
+      <div class="page-header">
+        <h1>Bootstrap without CSS</h1>
+      </div>
+      <p class="lead"><strong>Activity:</strong>
+      This represents what a Bootstrap template would look like without CSS.
+      Read the information below and fix this page to restore the styles.</p>
+        
+      <p>Bootstrap's stylesheet is not just about style, it is an essential part of how responsiveness is implemented.</p>
+         
+      <p>A common misconception is that good front-end frameworks can gracefully respond 
+      to web browsers that might not support CSS or JavaScript at all.  
+      This would be like expecting a Java program to gracefully respond to a
+      computer that does not have a Java virtual machine; It is an unreasonable expectation.</p>
+         
+      <p>This web page is located at <code>examples/part2/starter_no_css.html</code></p>
+      
+      <p>Bootstrap's JavaScript is located in the folder <code>examples/css/</code></p>         
+        
+      <p>Below is the essential code that must be included for Bootstrap to function. 
+      This code is missing from this web page's <code>head</code> tag.</p>        
+
+       
+      <pre>        
+    <!-- Bootstrap core CSS -->
+    &lt;link href="../css/bootstrap.css" rel="stylesheet"&gt;    
+      </pre>
+    
+    </div><!-- /.container -->
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+  </body>
+</html>

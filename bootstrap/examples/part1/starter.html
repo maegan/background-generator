@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Starter Template for Bootstrap</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="../css/bootstrap.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="starter.css" rel="stylesheet">
+  </head>
+
+  <body>
+
+    <div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Website Name</a>
+        </div>
+        
+        
+        <div class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="page-header">
+        <h1>Bootstrap starter template</h1>
+      </div>  
+
+        <p class="lead"><strong>Activity:</strong> Reduce the size of the browser window so that the main navigation menu transforms into a drop-down menu button.  Click the button twice.  Once to show the menu and a second time to hide it. Then read the description below to better understand how it works.</p>  
+        
+        <p>This web page represents a minimal Bootstrap template with its signature responsive main navigation menu.</p>
+        <p>The code below illustrates what "mobile first, desktop friendly" really means and how Bootstrap implements it.</p>
+        
+
+              
+        <p>The drop-down button (<span class="text-primary">navbar-toggle</span>) is shown by default.  The collapsible main menu (<span class="text-danger">.collapse</span>) is hidden by default and JavaScript is used to implement the drop-down functionality.</p>
+        <p>The <strong>@media</strong> rule is used to override the default mobile presentations.  CSS is used to hide the drop-down button (<span class="text-primary">navbar-toggle</span>) and to re-position the main menu (<span class="text-danger">.collapse</span>) as a horizontal menu instead of a drop-down.</p>
+
+       
+        <pre>        
+&lt;div class="navbar-header"&gt;
+  <span class="text-muted">&lt;!-- Drop Down Button --&gt;</span>         
+  &lt;button type="button" class="<span class="text-primary">navbar-toggle</span>"&gt;
+    &lt;span class="icon-bar"&gt;&lt;/span&gt;
+    &lt;span class="icon-bar"&gt;&lt;/span&gt;
+    &lt;span class="icon-bar"&gt;&lt;/span&gt;
+  &lt;/button&gt;
+  &lt;a class="navbar-brand" href="#"&gt;Website Name&lt;/a&gt;
+&lt;/div&gt;
+
+<span class="text-muted">&lt;!-- 
+Main Menu that can be displayed three ways:
+1. As drop down for devices with display width less than 768
+2. As a horizontal bar menu for display width greater than 768
+3. As a vertical list for devices that might not fully support CSS and JavaScript
+--&gt;</span>     
+&lt;div class="<span class="text-danger">collapse</span> navbar-collapse"&gt;
+  &lt;ul class="nav navbar-nav"&gt;
+    &lt;li&gt;&lt;a href="#"&gt;Home&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="#"&gt;About&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="#"&gt;Contact&lt;/a&gt;&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/div&gt;
+
+
+<span class="text-primary">.navbar-toggle</span> {
+  display: block;
+  position: relative;
+  float: right;
+  ...
+}
+<span class="text-danger">.collapse</span> {
+  display: none;
+}
+
+<strong>@media</strong> (min-width: 768px) {
+  <span class="text-primary">.navbar-toggle</span> {
+    display: none;
+  }
+  <span class="text-danger">.collapse</span>  {
+    display: block !important;
+    ...  
+}        
+</pre>
+    </div><!-- /.container -->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+  </body>
+</html>
